@@ -149,7 +149,15 @@ document.addEventListener('DOMContentLoaded', () => {
                     account: document.getElementById('account-number').value
                 }));
                 
-                withdrawForm.
+                withdrawForm.reset();
+                updateUI();
+                tg.showAlert('আপনার উইথড্র অনুরোধ সফলভাবে জমা হয়েছে।');
+            }
+        });
+    });
 
-        <body>
-        <html>
+    updateUI();
+});
+</script>
+</body>
+</html>
